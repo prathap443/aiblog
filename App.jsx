@@ -1,7 +1,8 @@
 import { useState, useEffect } from 'react';
 
 // Fixed API URL with explicit port
-const API_URL = 'https://your-render-backend-url.onrender.com/api/posts';
+//const API_URL = 'https://your-render-backend-url.onrender.com/api/posts';
+const API_URL = import.meta.env.VITE_API_URL;
 
 function App() {
   const [posts, setPosts] = useState([]);
