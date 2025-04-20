@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 
 // Fixed API URL with explicit port
-const API_URL = 'http://localhost:5000/api/posts';
+const API_URL = 'https://your-render-backend-url.onrender.com/api/posts';
 
 function App() {
   const [posts, setPosts] = useState([]);
