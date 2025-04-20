@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 
 // Triggering rebuild to apply env variable
+// Triggering rebuild to apply 
 
 // Fixed API URL with explicit port
 //const API_URL = 'https://your-render-backend-url.onrender.com/api/posts';
